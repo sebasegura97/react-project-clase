@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.header-title{
+    margin: 0;
+    font-family: sans-serif;
+}

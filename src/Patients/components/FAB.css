@@ -1,0 +1,25 @@
+.fab-container{
+    background-color: #32ADF5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+}
+
+.fab-container:hover{
+    cursor: pointer;
+}
+
+.fab-container:active{
+    box-shadow: none;
+    transition: .3s;
+}
