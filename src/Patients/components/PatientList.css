@@ -1,0 +1,53 @@
+.patient-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.filter-input-container{
+    background-color: rgb(241,241,242);
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+}
+.filter-search-icon{
+    margin-right: 5px;
+    color: rgb(110, 110, 116);
+
+}
+.filter-input{
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+.filter-cancel{
+    color: #32ADF5;
+    font-family: sans-serif;
+}
+
+.patient-item-container{
+    width: 90%;
+    border-bottom: 2px solid rgb(233,233,233);
+    font-family: sans-serif;
+}
+.patient-item-title{
+    color: #32ADF5;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.patient-item-description{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.patient-item-date{
+    font-weight: bold;
+    margin-right: 10px;
+}
